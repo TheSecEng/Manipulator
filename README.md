@@ -21,7 +21,7 @@
   - [x] MD5
   
   
-  #### Planned
+## Planned
 - [ ] AES-256 - decrypt with passphrase 'X'
 - [ ] AES-256 - encrypt with passphrase 'X'
 - [ ] x509 - fingerprint
