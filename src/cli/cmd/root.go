@@ -35,7 +35,7 @@ var (
   query   string
 
   iconAvailable = &aw.Icon{Value: "update-available.png"}
-  repo          = "deanishe/alfred-ssh" // GitHub repo
+  repo          = "TheSecEng/Manipulator" // GitHub repo
 )
 
 // rootCmd represents the base command when called without any subcommands
