@@ -144,3 +144,63 @@
 11:19:08 Sent 5 result(s) to Alfred
 11:19:08 ------------------- 2.780543ms -------------------
 11:19:08 ------------ AwGo/1.2.0 (AwGo/0.20.2) ------------
+13:38:17 ------------ AwGo/1.2.0 (AwGo/0.20.2) ------------
+13:38:17 ------------------- 716.971µs -------------------
+13:38:22 ------------ AwGo/1.2.0 (AwGo/0.20.2) ------------
+13:38:22 ------------------- 1.740535ms -------------------
+13:38:27 ------------ AwGo/1.2.0 (AwGo/0.20.2) ------------
+13:38:27 query=
+13:38:27 Running update check in background...
+13:38:27 no cached releases
+13:38:27 no downloads available
+13:38:27 Sent 5 result(s) to Alfred
+13:38:27 ------------------- 2.353578ms -------------------
+13:38:27 ------------ AwGo/1.2.0 (AwGo/0.20.2) ------------
+13:38:39 ------------ AwGo/1.2.0 (AwGo/0.20.2) ------------
+13:38:39 query=a nice alfred workflow
+13:38:39 Running update check in background...
+13:38:39 Sent 5 result(s) to Alfred
+13:38:39 ------------------- 2.21798ms --------------------
+13:38:39 ------------ AwGo/1.2.0 (AwGo/0.20.2) ------------
+13:39:04 ------------ AwGo/1.2.0 (AwGo/0.20.2) ------------
+13:39:04 query=a nice alfred workflow
+13:39:04 Running update check in background...
+13:39:04 Sent 5 result(s) to Alfred
+13:39:04 ------------------- 2.829402ms -------------------
+13:39:04 ------------ AwGo/1.2.0 (AwGo/0.20.2) ------------
+13:39:19 ------------ AwGo/1.2.0 (AwGo/0.20.2) ------------
+13:39:19 query=a nice alfred workflow
+13:39:19 Running update check in background...
+13:39:19 Sent 5 result(s) to Alfred
+13:39:19 ------------------- 2.292428ms -------------------
+13:39:19 ------------ AwGo/1.2.0 (AwGo/0.20.2) ------------
+13:40:30 ------------ AwGo/1.2.0 (AwGo/0.20.2) ------------
+13:40:30 query=a nice alfred workflow
+13:40:30 Running update check in background...
+13:40:30 Sent 5 result(s) to Alfred
+13:40:30 ------------------- 3.082684ms -------------------
+13:40:30 ------------ AwGo/1.2.0 (AwGo/0.20.2) ------------
+13:46:36 ------------ AwGo/1.2.0 (AwGo/0.20.2) ------------
+13:46:36 query=a nice alfred workflow
+13:46:36 Running update check in background...
+13:46:36 Sent 6 result(s) to Alfred
+13:46:36 ------------------- 2.89615ms --------------------
+13:46:36 ------------ AwGo/1.2.0 (AwGo/0.20.2) ------------
+13:47:10 ------------ AwGo/1.2.0 (AwGo/0.20.2) ------------
+13:47:10 query=a nice workflow in the world
+13:47:10 Running update check in background...
+13:47:10 Sent 6 result(s) to Alfred
+13:47:10 ------------------- 2.412484ms -------------------
+13:47:10 ------------ AwGo/1.2.0 (AwGo/0.20.2) ------------
+13:47:47 ------------ AwGo/1.2.0 (AwGo/0.20.2) ------------
+13:47:47 query=a nice workflow in the world
+13:47:47 Running update check in background...
+13:47:47 Sent 6 result(s) to Alfred
+13:47:47 ------------------- 2.370773ms -------------------
+13:47:47 ------------ AwGo/1.2.0 (AwGo/0.20.2) ------------
+13:49:41 ------------ AwGo/1.2.0 (AwGo/0.20.2) ------------
+13:49:41 query=a nice workflow in the world
+13:49:41 Running update check in background...
+13:49:41 Sent 6 result(s) to Alfred
+13:49:41 ------------------- 2.58864ms --------------------
+13:49:41 ------------ AwGo/1.2.0 (AwGo/0.20.2) ------------

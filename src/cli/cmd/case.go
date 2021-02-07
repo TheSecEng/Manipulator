@@ -3,11 +3,12 @@ package cmd
 import (
 	"fmt"
 	"log"
-	m "manipulator/manipulator"
 	"math/rand"
 	"os"
 	"os/exec"
 	"strings"
+
+	m "github.com/theseceng/manipulator/manipulator"
 
 	aw "github.com/deanishe/awgo"
 	"github.com/spf13/cobra"
@@ -52,6 +53,7 @@ func caseRun(cmd *cobra.Command, args []string) error {
 	results["Snakecase"] = m.HandleSnake(query)
 	results["CamelCase"] = m.HandleCamel(query)
 	results["LowerCamelCase"] = m.HandleLowerCamel(query)
+	results["TitleCase"] = m.HandleTitleCase(query)
 
 	for key, result := range results {
 		wf.NewItem(result).

@@ -1,10 +1,6 @@
 package manipulator
 
 import (
-	"crypto/md5"
-	"crypto/sha1"
-	"crypto/sha256"
-	"crypto/sha512"
 	b64 "encoding/base64"
 	"encoding/hex"
 	"fmt"
@@ -12,9 +8,6 @@ import (
 	"net/url"
 	"regexp"
 	"strconv"
-	"strings"
-
-	"github.com/iancoleman/strcase"
 )
 
 func HandleBase64(encode bool, data string) (string, error) {
@@ -83,44 +76,4 @@ func HandleBinary(encode bool, data string) (string, error) {
 		b[i] = byte(n)
 	}
 	return string(b), nil
-}
-
-func HandleSha1(value string) string {
-	rValue := sha1.Sum([]byte(value))
-	return fmt.Sprintf("%x", string(rValue[:]))
-}
-
-func HandleSha256(value string) string {
-	rValue := sha256.Sum256([]byte(value))
-	return fmt.Sprintf("%x", string(rValue[:]))
-}
-
-func HandleSha512(value string) string {
-	rValue := sha512.Sum512([]byte(value))
-	return fmt.Sprintf("%x", string(rValue[:]))
-}
-
-func HandleMD5(value string) string {
-	rValue := md5.Sum([]byte(value))
-	return fmt.Sprintf("%x", string(rValue[:]))
-}
-
-func HandleUpper(value string) string {
-	return strings.ToUpper(value)
-}
-
-func HandleLower(value string) string {
-	return strings.ToLower(value)
-}
-
-func HandleSnake(value string) string {
-	return strcase.ToSnake(value)
-}
-
-func HandleCamel(value string) string {
-	return strcase.ToCamel(value)
-}
-
-func HandleLowerCamel(value string) string {
-	return strcase.ToLowerCamel(value)
 }

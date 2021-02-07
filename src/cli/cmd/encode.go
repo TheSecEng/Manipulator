@@ -2,8 +2,8 @@ package cmd
 
 import (
 	"fmt"
+	m "github.com/theseceng/manipulator/manipulator"
 	"log"
-	m "manipulator/manipulator"
 	"math/rand"
 	"os"
 	"os/exec"

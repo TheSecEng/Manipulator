@@ -1,6 +1,6 @@
-module manipulator
+module github.com/theseceng/manipulator
 
-go 1.13
+go 1.15
 
 require (
 	github.com/deanishe/awgo v0.22.0

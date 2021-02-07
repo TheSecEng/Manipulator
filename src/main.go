@@ -16,7 +16,7 @@ limitations under the License.
 package main
 
 import (
-  "manipulator/cli/cmd"
+  "github.com/theseceng/manipulator/cli/cmd"
 )
 
 func main() {
