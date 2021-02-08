@@ -1,6 +1,7 @@
 .DS_STORE
 build
 go.sum
+testenv
 build-workflow.sh
 *.sublime-project
 *.sublime-workspace

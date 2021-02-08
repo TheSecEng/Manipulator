@@ -19,6 +19,9 @@
   - [x] Sha256
   - [x] Sha512
   - [x] MD5
+- [ ] **Case**
+  - [x] Title Case
+  - [ ] capitalize
   
   
 ## Planned
