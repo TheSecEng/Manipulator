@@ -27,6 +27,6 @@ func HandleLowerCamel(value string) string {
 	return strcase.ToLowerCamel(value)
 }
 
-func HandleTitleCase(value string) string {
-	return utils.ToTitleCase(value)
+func HandleTitleCase(value string, rules string) string {
+	return utils.ToTitleCase(value, rules)
 }

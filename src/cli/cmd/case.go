@@ -46,6 +46,7 @@ func caseRun(cmd *cobra.Command, args []string) error {
 			Valid(false).
 			Icon(iconAvailable)
 	}
+	titleCaseRules := wf.Config.GetString("AW_TITLECASE_RULE", "a,an,on,the,to,in,for")
 
 	results := make(map[string]string)
 	results["Uppercase"] = m.HandleUpper(query)
@@ -53,7 +54,7 @@ func caseRun(cmd *cobra.Command, args []string) error {
 	results["Snakecase"] = m.HandleSnake(query)
 	results["CamelCase"] = m.HandleCamel(query)
 	results["LowerCamelCase"] = m.HandleLowerCamel(query)
-	results["TitleCase"] = m.HandleTitleCase(query)
+	results["TitleCase"] = m.HandleTitleCase(query, titleCaseRules)
 
 	for key, result := range results {
 		wf.NewItem(result).

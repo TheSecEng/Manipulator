@@ -1,13 +1,16 @@
 package utils
 
-import "strings"
+import (
+	"fmt"
+	"strings"
+)
 
-func ToTitleCase(input string) string {
+func ToTitleCase(input string, rules string) string {
+	formattedRules := strings.Join(strings.Split(rules, ","), " ")
+	formattedRules = fmt.Sprintf(" %s ", formattedRules)
 	words := strings.Split(input, " ")
-	smallwords := " a an on the to in "
-
 	for index, word := range words {
-		if strings.Contains(smallwords, " "+word+" ") && word != string(word[0]) {
+		if strings.Contains(formattedRules, fmt.Sprintf(" %s ", word)) && word != string(word[0]) {
 			words[index] = word
 		} else {
 			words[index] = strings.Title(word)
